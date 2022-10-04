@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1,0" />
+    <title>Portfolio</title>
+    <style>
+       body{
+            background-image: url(./assets/Background_anggun.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100%;
+        }
+        .title{
+            text-align: center;
+            font-size: 2.5em;
+            color: #000;
+        }
+    </style>
+    <link
+      href="https://cdn.tailwindcss.com"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.index.css/">
+    </head>
+    <body class="flex flex-col min-h-full">
+        <nav class="flex flex-row items-center justify-between p-5 bg-gray-500">
+            <span 
+              class="text-white font-bold text-4xl mx-2 px-2 rounded hover:bg-indigo-700 transition duration-500 ease-in-out"
+              ><a href="/">Anggun Vanisha Putri Kusuma Wardhani</a></span
+            >
+            <ul class="flex flex-row text-white font-normal text-lg">
+              <li 
+                class="mx-2 p-2 rounded hover:bg-indigo-700 transition duration-500 ease-in-out"
+              >
+                <a href="#about">About</a>
+              </li>
+              <li 
+                class="mx-2 p-2 rounded hover:bg-indigo-700 transition duration-500 ease-in-out"
+              >
+                <a href="#experience">Experience</a>
+              </li>
+              <li 
+                class="mx-2 p-2 rounded hover:bg-indigo-700 transition duration-500 ease-in-out"
+              >
+                <a href="#work">Work</a>
+              </li>
+            </ul>
+        </nav>
+        <header>
+          <div 
+            class="jumbotron flex flex-col items-center justify-center h-screen bg-center bg-cover bg-no-repeat"
+        >
+            <h1 class="text-white text-3xl md:text-4xl text-6xl font-normal">Anggun Vanisha Putri Kusuma Wardhani</h1>
+            <p class="text-white text-2xl md:text-5xl font-thin">Web Portfolio</p>
+          </div>
+        </header>
+        <main>
+          <section id="about">
+            <div class="flex flex-col items-center justify-center px-5 py-8">
+              <h2 class="text-4xl font-medium my-4">About</h2>
+              <div class="profile-picture my-4 rounded-full h-48 md:h-56 w:48 md:w-56 bg-center bg-cover bg-no-repeat"></div>
+              <p class="text-xl font-thin text-center my-4 w:3/4 md:w-2/4">
+                Halo, saya biasa dipanggil Anggun. Sekarang saya sedang berkuliah di jurusan
+                Teknik Kimia Industri semester 7 Institut Teknologi Sepuluh Nopember
+              </p>
+            </div>
+          </section>
+          <section id="experience">
+            <div 
+              class="flex flex-col items-center justify-center mx-auto p-5 bg-gray-200"
+            >
+              <h2 class="text-4xl font-medium my-4">Experience</h2>
+              <p class="text-xl font-thin text-center my-4 w=2/4">
+                Selama 3 tahun belajar, berikut ini adalah aplikasi yang biasa
+                Saya gunakan
+              </p>
+              <div class="grid gap-20 md:gap-24 grid-cols-2 md:grid-cols-3 my-8">
+                <span class="h-48 w-48 rounded-md">
+                  <ing src="./assets/aspenhysys.svg" alt="aspenhysys">
+                </span>
+                <span class="h-48 w-48 rounded-md">
+                    <ing src="./assets/mathlab.svg" alt="mathlab">
+                </span>
+                <span class="h-48 w-48 rounded-md">
+                    <ing src="./assets/autocad.png" alt="autocad"></ing>
+                </span>
+                <span class="h-48 w-48 rounded-md">
+                    <ing src="./assets/tailwind.svg" alt="tailwind">
+                </span>
+              </div>
+            </div>
+          </section>
+          <section id="work">
+            <div class="flex flex-col items-center justify-center mx-auto px-5 py-8">
+                <h2 class="text-4xl font-medium my-4">Work</h2>
+                <p class="text-center text-xl font-normal my-2 w-3/4">
+                  You can click on the picture to the site!
+                </p>
+                <p class="text-center text-xl font-thin my-2 w-3/4">
+                    (more coming soon)
+                </p>
+                <div class="grip gap-8 grid-cols-1 my-8"
+                    <div class="grid gap-16 grid-cols-2 mx-12 my-4">
+                        <a href="">
+                            <ing 
+                                 class="transform hover:scale-110 transition duration-500 ease-in-out" 
+                                 src="./assets/thumbnail_covidtracker.png" 
+                                 alt="covid19 tracker"
+                            />
+                        </a>
+                    </div>
+                    <div>
+                        <h3 class="text-left text-2xl font-medium">Covid19 Tracker</h3>
+                        <p class="text-left text-lg">
+                            Website mengenai informasi pencegahan covid19. Pada website ini
+                            juga terdapat fitur untuk melacak jumlah persebaran covid19 di
+                            seluruh dunia.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid gap-4 md:gap-16 grid-cols-1 grid-cols-2 mx-12 my-4">
+                    <a href="">
+                        <ing 
+                             class="transform hover:scale-110 transition duration-500 ease-in-out" 
+                             src="./assets/thumbnail_soccer101.png" 
+                             alt="soccer 101"
+                        />
+                    </a>
+                </div>
+                <div>
+                    <h3 class="text-center md:text-left text-2xl font-medium">Soccer 101</h3>
+                    <p class="text-center md:text-left text-lg">
+                        Website mengenai informasi seputar sepakbola. Pada website ini
+                        Anda bisa melihat klasemen liga, melihat informasi tim, dan
+                        menambahkan tim ke daftar favorit. Keunggulan dari website ini
+                        adalah memiliki fitur Progressive Web App (PWA) sehingga dapat
+                        bekerja layaknya mobile app.
+                    </p>
+                </div>
+            </div>
+            <div class="grid gap-16 grid-cols-1 grid-cols-2 mx-12 my-4">
+                <a href="https://comfy-resto.web.app/">
+                    <ing 
+                         class="transform hover:scale-110 transition duration-500 ease-in-out" 
+                         src="./assets/thumbnail_comfyresto.png" 
+                         alt="comfy resto"
+                    />
+                </a>
+            </div>
+            <div>
+                <h3 class="text-left text-2xl font-medium">Comfy Resto</h3>
+                <p class="text-left text-lg">
+                    Website mengenai informasi seputar restaurat, cafe dan bar.
+                    Anda bisa melihat berbagai informasi mengenai menu makanan
+                    atau minuman yang ada di sebuah restaurant. Anda juga bisa
+                    memfavoritkan sebuah restaurant, serta menuliskan review untuk
+                    sebuah restaurant. Keunggulan dari website ini adalah memiliki
+                    fitur Progressive Web App (PWA) sehingga dapat bekerja
+                    layaknya mobile app.
+                </p>
+            </div>
+        </div>
+        <div class="grid gap-16 grid-cols-2 mx-12 my-4">
+            <a href="https://www.ruangguru.com">
+                <ing 
+                     class="transform hover:scale-110 transition duration-500 ease-in-out" 
+                     src="./assets/thumbnail_ruangguru.png" 
+                     alt="ruang guru"
+                />
+            </a>
+        </div>
+        <div>
+            <h3 class="text-left text-2xl font-medium">Ruang Guru</h3>
+            <p class="text-left text-lg">
+                Website ini merupakan hasil mahasiswa kampus merdeka
+                posisi Front End Engineering di Ruang Guru.
+            </p>
+        </div>
+    </div>
+            </div>
+          </section>
+        </main>
+        <footer class="text-white text-center font-medium mt-auto p-5 bg-gray-900">
+            @2022 Anggun Vanisha Putri Kusuma Wardhani
+        </footer>
+    </body>
+</html>
